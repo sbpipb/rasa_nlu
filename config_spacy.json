@@ -1,0 +1,6 @@
+{
+  "project":"penny",
+  "pipeline": "spacy_sklearn",
+  "path" : "./projects",
+  "data" : "./data/penny-rasa.json"
+}
