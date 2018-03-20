@@ -2,5 +2,6 @@
   "project":"penny",
   "pipeline": "spacy_sklearn",
   "path" : "./projects",
-  "data" : "./data/penny-rasa.json"
+  "data" : "./data/penny-rasa.json",
+  "language": "en"
 }

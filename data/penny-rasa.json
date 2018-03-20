@@ -301,6 +301,38 @@
             "entity": "biller_type"
           }
         ]
+      },
+      {
+        "text": "transfer funds to my other account",
+        "intent": "transfer_credits",
+        "entities": []
+      },
+      {
+        "text": "transfer credits to my savings account",
+        "intent": "transfer_credits",
+        "entities": [
+          {
+            "start": 17,
+            "end": 38,
+            "value": "savings account",
+            "entity": "destination_account"
+          }
+        ]
+      },
+      {
+        "text": "Show me my accounts",
+        "intent": "check_accounts",
+        "entities": []
+      },
+      {
+        "text": "account list",
+        "intent": "check_accounts",
+        "entities": []
+      },
+      {
+        "text": "what are my accounts",
+        "intent": "check_accounts",
+        "entities": []
       }
     ]
   }
